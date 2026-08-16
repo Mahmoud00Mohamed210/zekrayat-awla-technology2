@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ذكريات أولى تكنولوجيا</title>
+
+    <!-- ملف CSS -->
+    <link rel="stylesheet" href="style.css">
+
+
+<style>
+iframe {
+    max-width: 100%;
+}
+
+#mainVideo,
+.video-card iframe,
+#bg-video {
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+
+    #mainVideo {
+        width: 100% !important;
+        height: 250px !important;
+    }
+
+    .video-card {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .video-card iframe {
+        width: 100% !important;
+        height: 250px !important;
+    }
+
+    #bg-video {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+}
+
+
+
+
+/* =========================
+   📱 شكل الفيديوهات على الموبايل
+========================= */
+
+@media (max-width: 768px) {
+
+    /* كل صف فيديوهات يبقى فيديو واحد فقط */
+    .video-row,
+    .videos-row {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 20px !important;
+        width: 100% !important;
+    }
+
+    /* كارت الفيديو */
+    .video-card {
+        width: 92% !important;
+        max-width: 500px !important;
+        margin: 0 auto !important;
+    }
+
+    /* الفيديو نفسه */
+    .video-card iframe {
+        display: block !important;
+        width: 100% !important;
+        height: 230px !important;
+        border: none !important;
+        border-radius: 15px !important;
+    }
+
+    /* الفيديو الرئيسي */
+    #video-section {
+        width: 100% !important;
+        padding: 0 10px !important;
+        box-sizing: border-box !important;
+    }
+
+    #mainVideo {
+        display: block !important;
+        width: 100% !important;
+        height: 250px !important;
+        border-radius: 15px !important;
+    }
+
+}
+
+
+
+</style>
+
+</head>
+
+<body>
+
+
+    <!-- شاشة البداية -->
+    <div id="splash-screen">
+
+        <!-- فيديو الخلفية -->
+        <iframe
+            id="bg-video"
+            src="https://drive.google.com/file/d/18Cqf1BJ4HLc9NWXTnHVDtsXMch5fFgx-/preview"
+            allow="autoplay">
+        </iframe>
+
+        <!-- طبقة شفافة -->
+        <div class="overlay"></div>
+
+        <!-- الشريط المتحرك -->
+        <div class="news-bar">
+            <div class="news-text">
+                عشري والحب ♥️🫂 ذكريات أولى تكنولوجيا
+            </div>
+        </div>
+
+        <!-- زر OPEN -->
+        <button id="openBtn">
+            <span>😉😂 خش هتجيبك</span>
+        </button>
+
+    </div>
+
+    <!-- الموقع الرئيسي -->
+    <div id="website">
+
+        <header>
+
+            <div class="logo">
+                📌ذكــريــات اولــى تــكــنــولــــوجــيــــا
+            </div>
+
+            <nav>
+                
+                 <a class="whatsapp-btn"
+   href="https://wa.me/201034398072?text=جنون دفعه تكنولوجيا"
+   target="_blank">
+    🟢 واتساب </a>
+
+            </nav>
+
+        </header>
+
+
+
+        <!-- ❤️ عداد الذكريات ❤️ -->
+
+<section id="love-counter">
+
+    <h2>  👉♥️الحكايه بدات من هنا ♥️👈</h2>
+
+    <h1 class="start-date">
+        البداية : 06 / 10 / 2025
+    </h1>
+
+    <div class="counter">
+
+        <div class="box">
+            <span id="month">0</span>
+            <small>شهور</small>
+        </div>
+
+        <div class="box">
+            <span id="days">0</span>
+            <small>يوم</small>
+        </div>
+
+        <div class="box">
+            <span id="hours">0</span>
+            <small>ساعة</small>
+        </div>
+
+        <div class="box">
+            <span id="minutes">0</span>
+            <small>دقيقة</small>
+        </div>
+
+        <div class="box">
+            <span id="seconds">0</span>
+            <small>ثانية</small>
+        </div>
+
+
+
+
+    </div>
+
+    <h1 id="loveMessage">
+    
+        🫵 كل يوم بيعدي 🫶🏻 بيزود ذكرى جديدة بينا 
+    </h1>
+
+</section>
+ 
+
+        <main>
+
+            <!-- الفيديو الرئيسي -->
+            <section id="video-section">
+
+
+                <div class="title-box">
+
+    <h2>
+
+   🫂♥️من اجمل ايام الامتحانات هي دعوات (ث)😂 مش تيتا وربنا يديها طوله العمر وقبل بدايه كل امتحانات مستمره معانا بدعواتها 
+
+    </h2>
+
+</div>
+
+                <iframe
+                    id="mainVideo"
+                    src="https://drive.google.com/file/d/1oJWMa9r1nm98lNBrrGpb6HRoPgwBHmaJ/preview"
+                    allow="autoplay; fullscreen"
+                    allowfullscreen>
+                </iframe>
+
+            </section>
+            
+
+
+<style>
+.video-container {
+    width: 520px;
+    margin: 30px auto;
+    padding: 8px;
+
+    border: 4px solid #00e5ff;
+    border-radius: 15px;
+
+    box-shadow:
+        0 0 10px #00e5ff,
+        0 0 25px #00e5ff;
+
+    background: #111;
+
+    transition: transform 0.3s ease;
+}
+
+.video-container:hover {
+    transform: scale(1.03);
+}
+
+.video-container iframe {
+    display: block;
+    width: 100%;
+    height: 450px;
+
+    border: none;
+    border-radius: 10px;
+}
+</style>
+
+            
+  <div class="title-box">
+
+    <h2>
+         😎 وهنا تم تعيين ليدرات الدفعة 😎
+        (مـــــحـــــــــمـــــود) 😎 (أمين) 😎 (عبد الله) 😎
+       <br>
+       (فايزه)-----😎----(فاطمه)
+     <br>
+        ولا رؤساء مافيا ولا حاجة... إحنا مساكين والله 😂❤️
+    </h2>
+
+<div class="message-box">
+
+    <h3>
+
+عملنا مجهود كبير بشهاده الدفعه وطول ما احنا ايد واحده هنفضل مكملين مع بعض للاخر 🫡
+
+<br><br>
+
+طول ما احنا حابين الخير لبعض هنعمل حاجات كتير تسيب لنا اثر في الكليه دي
+
+    </h3>
+
+</div>
+
+    
+</div>
+
+
+ 
+
+
+
+<section class="video-row">
+
+    <div class="video-card">
+
+        <iframe
+            src="https://drive.google.com/file/d/1fGgJkkkBShqET9qxNGg7ZlQeBbCq45aU/preview"
+            allow="autoplay; fullscreen"
+            loading="lazy"
+            allowfullscreen>
+        </iframe>
+
+    </div>
+
+    <div class="video-card">
+
+        <iframe
+            src="https://drive.google.com/file/d/1G6SIMNROe-Nq51eK0vKuU8tgXeatjwzV/preview"
+            allow="autoplay; fullscreen"
+            loading="lazy"
+            allowfullscreen>
+        </iframe>
+
+    </div>
+
+</section>
+
+
+<section class="two-images">
+
+    <div class="image-card">
+        <img src=" videos/WhatsApp Image 2026-07-30 at 9.03.02 PM.jpeg" alt="">
+    </div>
+
+    <div class="image-card">
+        <img src=" videos/WhatsApp Image 2026-07-30 at 9.07.26 PM.jpeg" alt="">
+    </div>
+
+</section>
+
+
+   
+<div class="message-box">
+
+    <h3>
+
+احلى سنه عدت علينا وعملنا فيها ذكريات كتير وعقبال السنين اللي جايه من غير مشاكل يكملوا واحنا حابين الخير لبعض 🫂💗
+
+<br><br>
+
+احلى ايام عدت علينا هي اللمه الحلوه واحنا متجمعين مع بعض ونهرب من المحاضرات 😂😂 علشان الفطار طبعا اهم حاجه 🙂🤦 احنا شله كسوله بنام على طول اي مكان نشوفه بننام فيه ما جتش عليا انا كمان بقى نايم في الكليه بتاعتنا 😂
+
+<br><br>
+
+احنا فعلا دفعه عملت شغل عالي برتقالي ورفعنا راسنا لفوق باخر حاجه قدمناها عايزين نستمر مع بعض ونفضل ايد واحده
+
+    </h3>
+
+</div>
+
+
+
+<section class="photo-section">
+
+    <div class="photo-stack">
+
+        <img src="videos/IMG-20260723-WA0030.jpg " alt="">
+        <img src=" videos/IMG-20260717-WA0013.jpg" alt="">
+        <img src="videos/IMG-20260717-WA0015.jpg " alt="">
+        <img src="videos/IMG20260420152056.jpg " alt="">
+        <img src="videos/IMG20260610103829.jpg " alt="">
+        <img src="videos/IMG20260301141753.jpg " alt="">
+        <img src=" videos/IMG20260511152852.jpg " alt="">
+        <img src="videos/IMG20260407140004.jpg " alt="">
+        <img src="videos/IMG20260420151119.jpg " alt="">
+        <img src=" videos/IMG20260216120727.jpg " alt="">
+        <img src=" videos/IMG20260226113903.jpg" alt="">
+        <img src="videos/IMG20260219124121.jpg" alt="">
+        <img src="videos/IMG20260217120832.jpg" alt="">
+        <img src="videos/IMG20260512091839.jpg" alt="">
+        <img src="videos/IMG20260407140606.jpg" alt="">
+        <img src="videos/999.jpg" alt=" ">
+        <img src="videos/150175.jpg" alt="">
+        <img src="videos/WhatsApp Image 2026-07-31 at 12.10.23 AM.jpeg " alt="">
+        <img src=" videos/WhatsApp Image 2026-07-31 at 12.10.22 AM.jpeg" alt="">
+        <img src=" videos/WhatsApp Image 2026-07-31 at 12.50.24 AM.jpeg " alt="">
+        <img src="videos/WhatsApp Image 2026 at 12.50.24 AM - Copy.jpeg " alt="">
+         
+    </div>
+
+</section>
+
+
+
+
+<div class="title-box">
+
+    <h2>
+
+اجمل اللحظات لما نتجمع مع بعض كده ونعيش فيها اطفال😂😂
+
+<br><br>
+
+ومن اجمل واحسن الفيديوهات اللي حصلت الفيديو بتاع صلي على النبي عليه افضل الصلاه والسلام ♥️♥️
+
+<br><br>
+
+وطبعا اخونا حازم عمل معانا دور كبير جدا جدا من بدايه السنه حتى الآن 🫡
+
+<br><br>
+
+(ما ننساش دايما وابدا نذكر الله ونصلي على رسول الله ♥️💗)
+
+    </h2>
+
+</div>
+
+ 
+
+<section class="videos-row">
+
+    <div class="video-card">
+        <iframe src="https://drive.google.com/file/d/1ROn4JwQOZmnh1j7WBJCWuJOvvcdaptvU/preview" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-card">
+        <iframe src="https://drive.google.com/file/d/1DvKY5OSYofZDRiKtcIFHWJvWNmgLQbak/preview" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-card">
+        <iframe src="https://drive.google.com/file/d/1NGnLr3QdXZ-da7YBWzA6Jz6HmfU0jBLw/preview" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+
+</section>
+
+<section class="videos-row">
+
+<div class="video-card">
+        <iframe src="https://drive.google.com/file/d/104Ys3WnWqN6n78Hm9uy8W39Ndi0eZ7if/preview" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-card">
+        <iframe src="https://drive.google.com/file/d/1-ok_s4a91S2WNQxuADOIM9qZnT9T5nEg/preview" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-card">
+        <iframe src="https://drive.google.com/file/d/1i7g4W6iBadYuwKGGxGLbXyGb8iv8f4k6/preview" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+     
+
+    <div class="video-card">
+        <iframe src="https://drive.google.com/file/d/1JtCQv6g1eS3LHuN-MEszTtly59FYgzBQ/preview" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+
+</section>
+
+
+<div class="title-box">
+
+    <h2>
+
+من اجمل واحسن اللحظات اللي حصلت الترم التاني بتعاون الدفعه مع بعض 🫡
+
+<br><br>
+
+وده اثبت لي ان دفعه تكنولوجيا لما بتتفق على حاجه لازما تتم 🫡
+
+<br><br>
+
+عملنا احسن واجمل ذكرى وان احنا نشكر دكتوره هبه 💗♥️ على مجهودها اللي عملته معانا دكتور هبه ام لينا مش دكتورتنا وبس ♥️🫂
+
+    </h2>
+
+</div>
+
+
+ <section class="cards-gallery">
+
+    <img src=" videos/IMG_٢٠٢٦٠٤٢٩_٢٣٣٦٠٤.jpg" alt="">
+    <img src="videos/IMG_٢٠٢٦٠٥٠٣_١٢٤٩٤١.jpg " alt="">
+    <img src="videos/IMG_٢٠٢٦٠٥٠٣_١٨١٠١٠.png " alt="">
+    <img src=" videos/IMG_٢٠٢٦٠٥٠٣_١٨٠٧٥٧.jpg" alt="">
+    <img src=" videos/1776655389871.png" alt="">
+    <img src=" videos/IMG20260503105535.jpg" alt="">
+    <img src="videos/IMG20260503104907.jpg " alt="">
+    <img src="videos/IMG20260503104650.jpg " alt="">
+    <img src=" videos/IMG20260503093340.jpg" alt="">
+    <img src=" videos/Screenshot_٢٠٢٦-٠٥-٠٤-١٤-١٢-١٢-٠٩_99c04817c0de5652397fc8b56c3b3817.jpg" alt="">
+    <img src=" videos/WhatsApp Image 2026-07-30 at 11.45.50 PM.jpeg" alt="">
+    <img src="videos/WhatsApp Image 2026-07-31 at 12.03.08 AM - Copy.jpeg " alt="">
+    <img src="videos/WhatsApp Image 2026-07-31 at 12.12.37 AM.jpeg " alt="">
+    <img src="videos/WhatsApp Image 2026-07-31 at 12.15.12 AM.jpeg " alt="">
+    <img src="videos/WhatsApp Image 2026-07-31 at 12.36.33 AM.jpeg " alt="">
+    <img src="videos/WhatsApp Image 2026-07-31 at 1.07.57 AM.jpeg " alt="">
+    <img src="videos/WhatsApp Image 2026-07-31 at 12.04.25 AM (1).jpeg " alt="">
+    <img src=" videos/WhatsApp Image 2026-07-31 at 12.23.17 AM - Copy.jpeg" alt="">
+     <img src=" videos/WhatsApp Image 2026-07-31 at 2.15.23 AM.jpeg" alt="">
+    <img src="videos/WhatsApp Image 2026-07-31 at 12.04.25 AM.jpeg " alt="">
+    <img src="videos/WhatsApp Image 2026-07-31 at 12.50.23 AM.jpeg " alt="">
+    <img src="videos/WhatsApp Image 2026-07-31 at 4.16.02 PM.jpeg" alt="">
+    <img src="videos/WhatsApp Image 2026-07-31 at 4.15.14 PM.jpeg" alt="">
+</section>
+
+
+
+<div class="title-box">
+
+    <h2>
+
+سيب علامه للي بعدك يعرف بيها انت مين 🫀📌
+
+<br><br>
+
+وكل واحد تصرفاته بتدل على البيئه اللي هو جاي منها احنا كلنا ناس محترمين احنا مش بس سيبنا علامه للي بعدنا احنا سيبنا علامه واحنا لسه مكملين فده بيدل على ان اللي جاي احسن ان شاء الله وربنا يوفقنا جميعا وكل واحد يوصل للي بيحلم بيه 🤲♥️
+<br>
+  🫶🫶🫶 التقدير حلو قدر اللي قدامك وشوف بيتعب قد ايه ملكش دعوه بالظاهر يعني احنا لما طلعنا على قناه الجزيره مكانش من فراغ
+
+    </h2>
+
+</div>
+
+
+
+
+<section class="videos-row">
+
+    <div class="video-card">
+        <iframe src="https://drive.google.com/file/d/1m0BW3F2KX_snLx9CgVVyIT57voQeZ_2W/preview" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-card">
+        <iframe src="https://drive.google.com/file/d/1K61pz5Kq-zyL6WaFe_GF5f9F14Qi24oo/preview" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-card">
+        <iframe src="https://drive.google.com/file/d/1FEfLtLj5SxSZEzwNqG-P98UaoXmm4BNW/preview" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+</section>
+
+
+
+
+
+<section class="videos-row">
+
+<div class="video-card">
+        <iframe src="https://drive.google.com/file/d/1yRYW8f5nbatRJ6BPduW0oL9UiaQGDVIS/preview" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-card">
+        <iframe src="https://drive.google.com/file/d/1C8JbNoa3-1iDjc0CmZuLTsdE8QOYRxOX/preview" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+
+</section>
+
+<!-- تكبير الصورة -->
+<div id="imageViewer">
+    <span id="closeImage">&times;</span>
+    <img id="bigImage" src="" alt="">
+</div>
+
+
+
+<div class="title-box">
+
+    <h2>
+
+عود نفسك لما تدخل مكان حاول تثبت كفاءتك فيه على قد ما تقدر بادبك وباحترامك هتكسب كل الناس ♥️
+
+<br><br>
+
+وبالكلمه الحلوه تخلي اللي قدامك يحترمك دايما خلي بالك من كلامك 🫡
+
+<br><br>
+
+(احنا مشين في الكليه دي بل حب احنا يمكن مش بنحضر محاضرات كتير لكن اهم حاجه االلمه الحلوه وسط الشله )
+
+    </h2>
+
+</div>
+
+
+
+<section class="cards-gallery">
+
+    <img src=" videos/IMG20260428113453.jpg" alt="">
+    <img src=" videos/IMG20260428113428.jpg" alt="">
+    <img src=" videos/WhatsApp Image 2026-07-31 at 2.15.04 AM (1).jpeg" alt="">
+    <img src=" videos/IMG20260503093340.jpg" alt="">
+    <img src=" videos/Screenshot_٢٠٢٦-٠٥-٠٤-١٤-١٢-١٢-٠٩_99c04817c0de5652397fc8b56c3b3817.jpg" alt="">
+    <img src="videos/1000050436.jpg " alt="">
+    <img src="videos/عشري .jpeg " alt="">
+    <img src=" videos/56920.jpg" alt="">
+</section>
+
+<!-- نافذة تكبير الصورة -->
+<div id="imageViewer">
+
+    <span id="closeImage">&times;</span>
+
+    <img id="bigImage" src="" alt="">
+
+</div>
+
+
+
+<div class="title-box">
+
+    <h2>
+
+هو احنا هنعيشها كم مره 🫂
+
+<br><br>
+
+احنا بنعيشها مره واحده نعيشها مبسوطين وفرحانين ونقضي وقتنا بذكر الله الا بذكر الله تطمئن القلوب ♥️🫂
+
+    </h2>
+
+</div>
+
+
+ 
+
+<section class="videos-row">
+
+
+<div class="video-card">
+        <iframe src="https://drive.google.com/file/d/15Vb7kaKpPOd2kwtpxpxNIpmM1WTku-Dz/preview" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-card">
+        <iframe src="https://drive.google.com/file/d/1M_JlZ8sOiap9vE2Yp27j4XZ9GuSWBcOY/preview" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-card">
+        <iframe src="https://drive.google.com/file/d/1hwK8rV7urc53lYabAx7Zz5o2VhEQpgiI/preview" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-card">
+        <iframe src="https://drive.google.com/file/d/1QyPO1-i2Hk4mrMWasTDw87lUDD4rfihn/preview" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+
+
+    <div class="video-card">
+        <iframe src="https://drive.google.com/file/d/1sjqpFMtx8V5Dbv03UDrCpwoBUE8MO8XR/preview" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-card">
+        <iframe src="https://drive.google.com/file/d/1RVHCLwNEWB8p7-OonMfLnTbH2gWp8ALo/preview" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-card">
+        <iframe src="https://drive.google.com/file/d/1D2m-SZc3u-zJ6XZYndGFoo8A152yJg20/preview" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-card">
+        <iframe src="https://drive.google.com/file/d/1DPGMqUL5doFXc8TDYeUnFd6-ghVfaC5u/preview" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-card">
+        <iframe src="https://drive.google.com/file/d/18heE25aDlWErgpF14V6MjAR_Qr9juCAG/preview" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-card">
+        <iframe src="https://drive.google.com/file/d/17zFV5sJqKNoth4yiOzeixn2irNsm1bKN/preview" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+
+     
+</section>
+
+
+<div class="title-box">
+
+    <h2>
+
+🥲😂هنا انا كنت فاكر نفسي بتخرج خلاص بقى علشان خلصت سنه اولى رحت احتفل مع سنه رابعه وهم بيتخرجوا على اساس ان انا هتخرج معاهم اكتشفت ان لسه بدري
+
+    </h2>
+
+</div>
+
+<section class="videos-row">
+
+<div class="video-card">
+        <iframe src="https://drive.google.com/file/d/1Ufc-0Q5Cxxp3Xlro1AJlY5huN5AznVdp/preview" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+
+<div class="video-card">
+        <iframe src="https://drive.google.com/file/d/13KWt1tWf_85NZ-TUUQ2gv8mvEgLT4kQ-/preview" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+
+
+
+    <div class="video-card">
+        <iframe src="https://drive.google.com/file/d/1aNy2yjfdGGY3vXReIZvUReNxsgXlAqKb/preview" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+
+ 
+    <div class="video-card">
+        <iframe src="https://drive.google.com/file/d/17Zw5zyVsr4dvsLzUxKcYYZGTZbXMSEY3/preview" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+     
+
+</section>
+ 
+
+
+<div class="title-box">
+
+    <h2>
+
+ 🥲😂😂وفي الاخر اكتشف ان بحلم وقدامي تلات سنين
+
+    </h2>
+
+</div>
+
+
+
+<section class="videos-row">
+
+<div class="video-card">
+        <iframe src="https://drive.google.com/file/d/17XqyjHMLBKKOGnzzyLIbCiV6pvh4O9xx/preview" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+
+</section>
+
+
+
+<div class="title-box">
+
+    <h2>
+
+  🫡في حاجه اتعلمتها خلال السنه دي ان كلام الناس كتير ما يهمكش كلام الناس اهم حاجه فعلك انت وتصرفاتك 
+ <br>
+👀ياما كلام كتير قوي اتقال ما يشغلكش اي حاجه وركز في اللي انت فيه 
+ <br>
+💸😂يعني انا اتقال عليا بكلم بنات الكلام مش بفلوس 
+ <br>
+ 🫵😂والمفيد عيش بارد تموت بصحتك شخبط على الكلام
+<hr>
+ 😂❤️‍🩹فاهمين ولا مش فاهمين دمتم سالمين
+    </h2>
+
+</div>
+
+
+
+<section class="videos-row">
+
+<div class="video-card">
+        <iframe src="https://drive.google.com/file/d/1eS4Y_dZS71NjAJTBzTHngCKh6Z87CdrA/preview" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+
+<div class="video-card">
+        <iframe src="https://drive.google.com/file/d/11IJuDneVaU07p1hdznPSC7qSmc0vg77g/preview" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+
+</section>
+
+
+
+<div class="title-box">
+
+    <h2>
+
+ 🫵💗🫂الفيديو ده مخصوص علشان ام العيال المشوار طويل ومكملين اللي بينا كبير
+
+    </h2>
+
+</div>
+
+
+<section class="videos-row">
+<div class="video-card">
+        <iframe src="https://drive.google.com/file/d/1So8ixcwSvYj3iJZvUvJzeHNekKZfglJ4/preview" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+
+</section>
+
+
+
+
+
+<div class="title-box">
+
+    <h2>
+
+  ❤️‍🩹😂مـــــعـــاكــــم صـــانــــع الــســـعــــاده
+<br>
+🥲او بحاول اصنعها ما فيش مشكله 
+<br>
+🫡اللي جايه احلى 
+<br>
+<a href="https://wa.me/201034398072" target="_blank">واتساب</a>
+
+    </h2>
+
+</div>
+
+
+
+
+
+
+<section id="social">
+
+    <mark> <h2>🙂😂😂تـــابــــعـــووونـــي</h2></mark>
+
+
+     <div class="voice-message">
+
+    <button id="playVoice" type="button">▶</button>
+
+    <div class="voice-hand">صانع الــســـعــــاده</div>
+
+    <div class="voice-wave">
+        <span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span>
+    </div>
+
+    <span id="voiceTime">0:00</span>
+
+</div>
+
+<audio id="voiceMessage" preload="metadata">
+    <source src="audio/music4.mp3" type="audio/mpeg">
+</audio>
+
+
+    <div class="social-links">
+
+        <a href="https://www.tiktok.com/@dyljl3zppagn?_r=1&_t=ZS-98UUqvVNMhw" target="_blank" class="tiktok-btn">
+            🎵 TikTok
+        </a>
+
+        <a href="https://www.facebook.com/share/1CsUu7GhnW/" target="_blank" class="facebook-btn">
+            📘 Facebook
+        </a>
+
+
+<a href="https://www.instagram.com/mhwd2736?igsh=MTB2aWZnMWVsZGRwOA==" target="_blank">
+    <button>📷 Instagram</button>
+</a>
+
+    </div>
+
+</section>
+
+
+<!-- زر تشغيل وإيقاف الأغاني -->
+<button id="musicToggle" type="button" onclick="toggleMusic()">🔊</button>
+
+<style>
+#musicToggle {
+    position: fixed;
+    bottom: 170px;
+    right: 20px;
+
+    width: 70px;
+    height: 70px;
+
+    border: none;
+    border-radius: 30%;
+
+    background: #222;
+    color: white;
+
+    font-size: 50px;
+    cursor: pointer;
+
+    z-index: 99999;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+    transition: 0.2s;
+}
+
+#musicToggle:hover {
+    transform: scale(1.1);
+}
+</style>
+
+<script>
+
+let musicStopped = false;
+let playingAudios = [];
+
+/* منع تشغيل أي أغنية أثناء الكتم */
+function protectMusicMute() {
+
+    const audios = document.querySelectorAll("audio");
+
+    audios.forEach(function(audio) {
+
+        if (musicStopped) {
+            audio.pause();
+        }
+
+    });
+}
+
+/* زر تشغيل وإيقاف الأغاني */
+function toggleMusic() {
+
+    const audios = document.querySelectorAll("audio");
+
+    if (!musicStopped) {
+
+        playingAudios = [];
+
+        audios.forEach(function(audio) {
+
+            if (!audio.paused && !audio.ended) {
+                playingAudios.push(audio);
+                audio.pause();
+            }
+
+        });
+
+        musicStopped = true;
+
+        document.getElementById("musicToggle").textContent = "🔇";
+
+    } else {
+
+        playingAudios.forEach(function(audio) {
+
+            audio.play().catch(function() {});
+
+        });
+
+        musicStopped = false;
+
+        document.getElementById("musicToggle").textContent = "🔊";
+    }
+}
+
+
+/* مراقبة أي محاولة لتشغيل الصوت */
+setInterval(function() {
+
+    if (musicStopped) {
+        protectMusicMute();
+    }
+
+}, 100);
+
+
+/* لو الفيديو اتوقف، لا تسمح بتشغيل الأغنية أثناء الكتم */
+document.addEventListener("pause", function(event) {
+
+    if (musicStopped && event.target.tagName === "VIDEO") {
+        protectMusicMute();
+    }
+
+}, true);
+
+</script>
+
+
+
+<!-- أزرار التنقل -->
+
+<button id="scrollTopBtn">⬆</button>
+
+<button id="scrollBottomBtn">⬇</button>
+
+    <!-- ملف JavaScript -->
+
+    <audio id="bgMusic"></audio>
+    <script src="script.js"></script>
+
+
+
+
+
+
+</body>
+
+</html>
